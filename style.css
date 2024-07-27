@@ -36,11 +36,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    transition: top 0.3s;
+    transition: top 0.4s;
     z-index: 1;
     width: 100%;
     background-color: rgb(85, 132, 94);
-    border-bottom: rgb(0, 0, 0) 0.2rem solid;
+    border-bottom: rgb(25, 25, 25) 0.2rem solid;
     /*border-style: dashed;*/
 }
 
