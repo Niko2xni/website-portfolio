@@ -39,7 +39,7 @@ nav {
     transition: top 0.3s;
     z-index: 1;
     width: 100%;
-    background-color: rgb(135, 139, 143);
+    background-color: rgb(85, 132, 94);
     border-bottom: rgb(0, 0, 0) 0.2rem solid;
     /*border-style: dashed;*/
 }
@@ -54,18 +54,19 @@ nav {
 .nav-links a {
     padding: 30px 20px;
     font-size: 2.4rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .nav-links a:hover {
-    color: gray;
+    color: rgb(255, 255, 200);
     text-decoration: underline;
     text-underline-offset: 1.6rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(255, 255, 200);
 }
 
 #logo {
     font-size: 3.2rem;
+    color: rgb(255, 255, 255);
 }
 
 #logo:hover {
@@ -152,7 +153,7 @@ section {
 
 .btn {
     font-weight: 600;
-    transition: all 300ms ease;
+    transition: all 400ms ease;
     padding: 1.6rem;
     width: 12.8rem;
     border-radius: 3.2rem;
@@ -170,16 +171,18 @@ section {
 
 .color-1,
 .color-2:hover {
-  background: rgb(53, 53, 53);
+  background: rgb(180, 80, 80);
   color: white;
 }
 
 .color-1:hover {
-  background: rgb(0, 0, 0);
+  background: rgb(255, 95, 95);
+  border: rgb(255, 255, 255) 0.2rem solid;
 }
 
 .color-2 {
   background: none;
+  color: white;
 }
 
 .color-2:hover {
@@ -192,7 +195,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(255, 102, 64);
+    background: rgb(209, 84, 52);
 }
 
 .section-container {
@@ -225,6 +228,14 @@ section {
     border: rgb(53, 53, 53) 0.16rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+}
+
+.details-container p, .text-container p {
+    font-weight: 500;
+}
+
+.text-container p {
+    color: rgb(245, 245, 245)
 }
 
 .arrow {
