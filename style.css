@@ -25,7 +25,7 @@ body {
 
 /* Transition */
 a, .btn {
-    transition: all 300ms ease;
+    transition: all 400ms ease;
 }
 
 /* End of General */
@@ -36,16 +36,19 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition: top 0.3s;
     z-index: 1;
     width: 100%;
-    border-style: dashed;
+    background-color: rgb(135, 139, 143);
+    border-bottom: rgb(0, 0, 0) 0.2rem solid;
+    /*border-style: dashed;*/
 }
 
 .nav-links {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: dashed;
+    /*border-style: dashed;*/
 }
 
 .nav-links a {
@@ -74,23 +77,26 @@ nav {
 
 main {
     position: relative;
-    display: flex;
-    padding: 0 16rem;
-    border-style: dashed;
+    /*border-style: dashed;*/
     overflow: auto;
 }
 
 section {
     height: 100vh;
     width: 100%;
-    border-style: dashed;
+    padding: 0 16rem;
+    /*border-style: dashed;*/
     min-height: fit-content;
 }
+
+/* Profile Section */
 
 #profile {
     display: flex;
     justify-content: center;
     gap: 8rem;
+    background: rgb(55, 102, 64);
+    /*background-color: rgb(156, 133, 70);*/
 }
 
 .section-pic-container {
@@ -112,11 +118,13 @@ section {
 .section-text-p1 {
     font-size: 2rem;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .section-text-p2 {
     font-size: 2.8rem;
     margin-bottom: 1.6rem;
+    color: rgb(255, 255, 255);
 }
 
 .title {
@@ -135,3 +143,95 @@ section {
     cursor: pointer;
     height: 3.2rem;
 }
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1.6rem;
+    width: 12.8rem;
+    border-radius: 3.2rem;
+}
+
+.color-1,
+.color-2 {
+  border: rgb(53, 53, 53) 0.2rem solid;
+}
+
+.color-1:hover,
+.color-2:hover {
+  cursor: pointer;
+}
+
+.color-1,
+.color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.color-1:hover {
+  background: rgb(0, 0, 0);
+}
+
+.color-2 {
+  background: none;
+}
+
+.color-2:hover {
+  border: rgb(255, 255, 255) 0.2rem solid;
+}
+
+/* About Section */
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(255, 102, 64);
+}
+
+.section-container {
+    display: flex;
+    gap: 6.4rem;
+}
+
+.about-pic {
+    border-radius: 8rem;
+}
+
+.about-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers {
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.details-container {
+    padding: 1.4rem;
+    flex: 1;
+    background: white;
+    border-radius: 4rem;
+    border: rgb(53, 53, 53) 0.16rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    right: 8rem;
+    bottom: 4rem;
+}
+
+
+
