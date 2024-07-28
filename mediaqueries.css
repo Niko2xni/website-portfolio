@@ -1,9 +1,35 @@
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 1080px) {
     #desktop-navbar {
         display: none
     }
 
     #mobile-navbar {
         display: flex;
+    }
+
+    #profile {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 0 5%;
+    }
+
+    .section-container {
+        height: fit-content;
+    }
+
+    .section-pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 3.2rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .about-containers {
+        margin-top: 0;
     }
 }
