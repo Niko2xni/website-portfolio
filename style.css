@@ -78,6 +78,7 @@ nav {
 /* Mobile Navbar */
   
 #mobile-navbar {
+    display: none;
     padding: 24px 0;
 }
 
