@@ -57,7 +57,19 @@
         font-size: 3.2rem;
     }
 
-    .btn-container, .about-containers {
+    .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
+    }
+
+    .contact-info-upper-container {
+        padding: 0;
+    }
+
+    .contact-info-container a {
+        font-size: 1.6rem;
+    }
+
+    footer p {
+        font-size: 1.6rem;
     }
 }
