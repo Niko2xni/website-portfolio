@@ -284,6 +284,7 @@ section {
 
 .section-container {
     display: flex;
+    justify-content: center;
     gap: 6.4rem;
 }
 
