@@ -166,6 +166,7 @@ main {
 }
 
 section {
+    position: relative;
     min-height: 100vh;
     height: fit-content;
     width: 100%;
@@ -197,24 +198,24 @@ section {
     text-align: center;
 }
 
-.section-text p {
-    font-weight: 600;
-}
-
 .section-text-p1 {
     font-size: 2rem;
     text-align: center;
     color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 .section-text-p2 {
     font-size: 2.8rem;
     margin-bottom: 1.6rem;
     color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 .title {
     font-size: 4.8rem;
+    text-align: center;
+    font-weight: 600;
 }
 
 #socials-container {
@@ -326,9 +327,74 @@ section {
 
 .arrow {
     position: absolute;
-    right: 8rem;
-    bottom: 4rem;
+    right: 4vw;
+    bottom: 4vw;
 }
 
+/* Contact Section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(209, 193, 52);
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.2rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(255, 255, 255);
+    margin: 2rem auto;
+    padding: 0 4rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contact-info-container a {
+    font-size: 2rem;
+    padding: 2vw 1rem;
+    font-size: 2.4rem;
+    color: rgb(0, 0, 0);
+}
+
+.contact-info-container a:hover {
+    color: rgb(97, 97, 82);
+    text-decoration: underline;
+    text-underline-offset: 1.6rem;
+    text-decoration-color: rgb(97, 97, 82);
+}
+  
+.contact-icon {
+    cursor: default;
+}
+  
+.email-icon {
+    height: 3.8rem;
+}
+
+/* Footer Section */
+
+footer {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+  }
+  
+footer p {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+  
 
 
